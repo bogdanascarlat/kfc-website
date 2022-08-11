@@ -1,0 +1,268 @@
+@font-face {
+  font-family: nat;
+  font-weight: 700;
+  src: url("testfonts/Test web fonts (WOFF2)/Test National 2 Collection/Test National 2/test-national-2-extrabold.woff2");
+}
+
+@font-face {
+  font-family: nat;
+  font-weight: 600;
+  src: url("testfonts/Test web fonts (WOFF2)/Test National 2 Collection/Test National 2/test-national-2-bold.woff2");
+}
+
+@font-face {
+  font-family: nat;
+  font-weight: 400;
+  src: url("testfonts/Test web fonts (WOFF2)/Test National 2 Collection/Test National 2/test-national-2-black.woff2");
+}
+
+body {
+  font-family: nat, Arial, Helvetica, sans-serif !important;
+}
+
+/**********************  MOBILE MENU *************************/
+#mobile-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #312423ed;
+  display: none;
+  z-index: 2;
+}
+
+#mobile-menu a {
+  color: white;
+}
+
+#mobile-menu a:hover {
+  color: rgb(175, 171, 171);
+}
+
+#mobile-menu #close-btn {
+  position: absolute;
+  right: 29px;
+  top: 12px;
+  width: 36px;
+}
+
+/**********************  HEADER *************************/
+#background {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: transparent url("img/background-img-desktop.png") 0% 0% no-repeat
+    padding-box;
+  background-size: cover;
+}
+
+#logo_kfc {
+  background: transparent url("img/logo-kfc.png") 0% 0%;
+  background-repeat: no-repeat;
+}
+
+#logo_antena {
+  background: transparent url("img/logo-antena.png") 0% 0% no-repeat padding-box;
+}
+/*********************  ABOUT SECTION *************************/
+.about-section {
+  padding-bottom: 50px;
+}
+.title {
+  padding-top: 50px;
+  font-size: 80px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0px 0px 25px #ed2826;
+}
+
+.first-p {
+  padding-top: 50px;
+  text-align: left;
+  font-size: 26px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+
+.about-section .btn {
+  background-color: #fff;
+  color: #c8191e;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  padding: 26px 40px;
+  box-shadow: 0px 0px 25px #c8191e;
+  border: 2px solid #c8191e;
+  z-index: 1;
+}
+
+.about-section .btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  filter: blur(10px);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.about-section .btn::hover {
+  color: #c8191e;
+}
+
+.bucket {
+  width: 498px;
+  height: 588px;
+  margin-top: 200px;
+  background: url("img/bucket.png");
+}
+
+/*********************  GALLERY SECTION *************************/
+.gallery-section {
+  left: 0px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 100px;
+  background: #000000 0% 0% no-repeat padding-box;
+}
+
+.gallery-header {
+  padding-bottom: 70px;
+  text-align: center;
+  font-size: 86px;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #000000cc;
+  text-align: center;
+  margin: auto;
+}
+
+.gallery-paragraph {
+  padding-bottom: 85px;
+  text-align: center;
+  font-size: 26px;
+  line-height: 32px;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+}
+
+.container1,
+.container2 {
+  box-sizing: border-box;
+  /* display: flex;
+  flex-direction: row; */
+  /* justify-content: space-around;
+  align-items: center;
+  align-content: space-between; */
+  /* gap: 50px; */
+  text-align: center;
+  margin: auto;
+}
+
+.container2 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.img {
+  box-shadow: 0px 0px 28px #c8191ede;
+  border: 2px solid #c8191e;
+  opacity: 1;
+  width: 100%;
+}
+
+.container3 {
+  display: flex;
+  width: 200px;
+  background: #000;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+  margin: auto;
+  cursor: pointer;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.swiper-wrapper {
+  padding-top: 5rem;
+}
+
+.img img {
+  width: 100%;
+}
+/*********************  FOOTER SECTION *************************/
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #303030;
+}
+
+.footer-icons {
+  text-align: center !important;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.icon {
+  margin: auto;
+  width: 35px;
+  height: 35px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.links {
+  padding-top: 50px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.links a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+.links a:after {
+  border-left: 2px solid #f0f0f0;
+  height: 10px;
+  content: "";
+  margin: 0 1rem;
+}
+
+.links a:last-child:after {
+  content: "";
+  display: none;
+}
+
+.footer-icons a:after {
+  border-left: 2px solid #f0f0f0;
+  height: 10px;
+  content: "";
+  margin: 0 1rem;
+}
+
+.footer-icons a:last-child:after {
+  content: "";
+  display: none;
+}
+
+.copyright {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  text-align: center;
+}
+/*********************  MEDIA QUERIES *************************/
+/* @media screen and (max-width: 768px) {
+  .about-section {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+} */

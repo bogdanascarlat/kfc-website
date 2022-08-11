@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Test</title>
+    <link rel="stylesheet" href="css/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="preload"
+      href="testfonts/Test web fonts (WOFF2)/Test National 2 Collection/Test National 2/test-national-2-extrabold.woff2"
+      as="font"
+      type="font/woff2"
+    />
+    <link
+      rel="preload"
+      href="testfonts/Test web fonts (WOFF2)/Test National 2 Collection/Test National 2/test-national-2-bold.woff2"
+      as="font"
+      type="font/woff2"
+    />
+    <link
+      rel="preload"
+      href="testfonts/Test web fonts (WOFF2)/Test National 2 Collection/Test National 2/test-national-2-black.woff2"
+      as="font"
+      type="font/woff2"
+    />
+  </head>
+  <body>
+    <div id="mobile-menu">
+      <a id="close-btn" href="#"
+        ><img class="img-fluid" src="img/close-btn.png" alt="close"
+      /></a>
+    </div>
+    <!--HEADER-->
+    <div id="background">
+      <header id="header" class="py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <img src="img/logo-kfc.png" alt="logo kfc" id="logo_kfc" />
+            </div>
+            <div class="d-none d-md-block col-8 text-end">
+              <img
+                src="img/logo-antena.png"
+                alt="logo antena"
+                id="logo_antena"
+              />
+            </div>
+            <div class="d-md-none col-8 text-end">
+              <a id="menu-btn" href="#">
+                <img src="img/menu.png" alt="menu btn"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!--ABOUT SECTION-->
+      <section id="about-section">
+        <div class="container">
+          <div class="pb-5">
+            <div class="about-section row gx-5">
+              <div class="col">
+                <h1 class="title">TOT CE VEZI SI SIMTI E #PEBUNE</h1>
+                <p class="first-p">
+                  Când gasesti pe cineva la fel de #pebune, faci un parteneriat
+                  delicios sub forma de X Bucket, cu pui #pebune, care merge
+                  perfect cu un show #pebune: X Factor, in fiecare vineri, de la
+                  20:30, la Antena 1.
+                </p>
+                <div class="row gx-5">
+                  <div class="col-6">
+                    <button class="btn">COMANDA X BUCKET</button>
+                  </div>
+                  <div class="col-6">
+                    <button class="btn">URMARESTE X FACTOR</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="img/bucket.png" alt="bucket" class="bucket" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--GALLERY SECTION-->
+    <section class="gallery-section">
+      <div class="container">
+        <h1 class="gallery-header">MOMENTE #PEBUNE</h1>
+        <p class="gallery-paragraph">
+          Descopera galeria secventelor KFC la X Factor.
+        </p>
+        <div class="container1">
+          <div class="img">
+            <img src="img/img-play-desktop.png" alt="img play" />
+          </div>
+        </div>
+
+        <!-- SLIDER -->
+        <div class="swiper" style="opacity: 0">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide img">
+              <img src="img/img-gallery.png" alt="img gallery" />
+            </div>
+            <div class="swiper-slide img">
+              <img src="img/img-gallery.png" alt="img gallery" />
+            </div>
+            <div class="swiper-slide img">
+              <img src="img/img-gallery.png" alt="img gallery" />
+            </div>
+            <div class="swiper-slide img">
+              <img src="img/img-gallery.png" alt="img gallery" />
+            </div>
+            <div class="swiper-slide img">
+              <img src="img/img-gallery.png" alt="img gallery" />
+            </div>
+          </div>
+
+          <div class="container3">
+            <div class="arrow-left">
+              <img src="img/arrow-left-white.png" alt="arrow left" />
+            </div>
+            <div class="arrow-right">
+              <img src="img/arrow-right-white.png" alt="arrow right" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+      <div class="container-fluid text-light">
+        <div class="footer-icons">
+          <a href=""
+            ><img
+              src="img/icons8-facebook-f-50.png"
+              alt="facebook icon"
+              class="icon"
+          /></a>
+          <a href=""
+            ><img
+              src="img/icons8-youtube-25.png"
+              alt="youtube icon"
+              class="icon"
+          /></a>
+          <a href=""
+            ><img
+              src="img/icons8-instagram-50.png"
+              alt="instagram icon"
+              class="icon"
+          /></a>
+        </div>
+        <div class="links">
+          <a href="">Termeni si Conditii</a>
+          <a href="">Politica de Confidentialitate</a>
+          <a href="">Politica privind Prelucrarea Datelor</a>
+          <a href="">Declaratia Cookie</a>
+          <a href="">Contact</a>
+        </div>
+        <div class="copyright">
+          <p>Ⓒ2021KFC.&nbsp;&nbsp;Toate drepturile rezervate.</p>
+        </div>
+      </div>
+    </footer>
+
+    <link rel="stylesheet" href="js/jquery-3.6.0.slim.min.js" />
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js" />
+    <script src="js/leaflet.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+      window.addEventListener("load", function () {
+        let menuBtn = document.getElementById("menu-btn");
+        let mobileMenu = document.getElementById("mobile-menu");
+        let closeBtn = document.getElementById("close-btn");
+
+        menuBtn.addEventListener("click", function () {
+          mobileMenu.style.display = "block";
+        });
+
+        closeBtn.addEventListener("click", function () {
+          mobileMenu.style.display = "none";
+        });
+      });
+      var swiper = new Swiper(".swiper", {
+        loop: true,
+        slidesPerView: 2,
+        spaceBetween: 30,
+        slidesPerGroup: 5,
+        breakpoints: {
+          768: {
+            slidesPerView: 5,
+          },
+        },
+
+        navigation: {
+          nextEl: ".arrow-right",
+          prevEl: ".arrow-left",
+        },
+      });
+      document.querySelector(".swiper").style.opacity = 1;
+    </script>
+  </body>
+</html>
